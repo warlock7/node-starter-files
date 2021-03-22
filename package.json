@@ -1,8 +1,8 @@
 {
-  "name": "mailguy",
+  "name": "NodeStarterFile",
   "private": true,
   "version": "1.0.0",
-  "description": "Disposable email addresses for you.",
+  "description": "Node app starter files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,19 +10,11 @@
     "lint:fix": "eslint --fix .",
     "prettier:check": "prettier --check '**/*.{js}'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/privateOmega/mailguy.git"
-  },
   "contributors": [
     "privateOmega <privateOmega@protonmail.com>",
     "warlock7 <georgemathewkurian@gmail.com>"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/privateOmega/mailguy/issues"
-  },
-  "homepage": "https://github.com/privateOmega/mailguy#readme",
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
